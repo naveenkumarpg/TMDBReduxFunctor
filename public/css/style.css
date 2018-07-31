@@ -1,0 +1,92 @@
+body,html{
+    color: #47422c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#datacontainer{
+    min-height: 200px;
+}
+
+.gap-t{
+    margin-top: 40px;
+}
+
+.loader{
+    background: url('../images/loader.gif') center center no-repeat;
+    background-size: auto 40%;
+}
+
+.gap-b{
+    margin-bottom: 40px;
+}
+.center{
+    text-align: center
+}
+.mask{
+    background: rgba(0,0,0,.6);
+}
+.poster{
+    width: 100%;
+    opacity: 0;
+}
+
+.inline{
+    display: inline;
+}
+.poster_wrap{
+    position: relative;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.poster_wrap .title{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    color: #ffffff;
+    padding: 6px;
+    margin-bottom: 0px;
+    padding-bottom: 6px;
+    background-color: rgba(255,255,255,0);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0)),to(rgba(0,0,0,.8)));
+    background-image: -webkit-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: -moz-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: -ms-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: -o-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,.8));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='rgba(255, 255, 255, 0)', endColorStr='rgba(0, 0, 0, 0.8)');
+}
+.moviedetail{
+    background: #ccc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: inline-block;
+    color: #fff;
+    width: 100%;
+}
+
+.detailposter{
+    width: 100%;
+}
+
+.favbuttons .btn{
+    color: black;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.btn-success{
+    color: #fff;
+}
+.disclaimer{
+    font-size: 12px;
+    margin-top: 10px;
+}
